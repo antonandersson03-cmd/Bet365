@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "platform": "apify",
+  "title": "Bet365 Actor v1",
+  "type": "actor",
+  "entryPoint": "main.js"
+}

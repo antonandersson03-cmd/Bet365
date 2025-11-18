@@ -1,0 +1,13 @@
+{
+  "name": "apify-bet365-actor-v1",
+  "version": "1.0.0",
+  "description": "Apify actor targeted for Bet365 match URL - outputs structured markets (demo).",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.0.0",
+    "playwright": "^1.40.0"
+  }
+}

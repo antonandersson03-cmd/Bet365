@@ -1,0 +1,21 @@
+{
+  "title": "Bet365 Actor Input",
+  "type": "object",
+  "properties": {
+    "startUrl": {
+      "title": "Bet365 match URL",
+      "type": "string",
+      "default": "https://www.bet365.com/#/AC/B1/C1/D8/E183853570/F3/"
+    },
+    "headless": {
+      "title": "Run headless",
+      "type": "boolean",
+      "default": true
+    },
+    "useApifyProxy": {
+      "title": "Use Apify Proxy",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
