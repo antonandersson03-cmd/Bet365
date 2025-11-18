@@ -1,21 +1,31 @@
 {
-  "title": "Bet365 Actor Input",
+  "title": "Bet365 Actor Settings",
+  "description": "Inställningar för Bet365 odds-scrapern.",
   "type": "object",
+  "schemaVersion": 1,
   "properties": {
     "startUrl": {
-      "title": "Bet365 match URL",
+      "title": "Start URL",
       "type": "string",
+      "description": "URL till Bet365 sidan du vill scrapa.",
       "default": "https://www.bet365.com/#/AC/B1/C1/D8/E183853570/F3/"
     },
     "headless": {
-      "title": "Run headless",
+      "title": "Kör headless?",
       "type": "boolean",
       "default": true
     },
     "useApifyProxy": {
-      "title": "Use Apify Proxy",
+      "title": "Använd Apify proxy?",
       "type": "boolean",
+      "description": "Rekommenderas, annars kan Bet365 blockera dig.",
       "default": false
+    },
+    "maxWaitSecs": {
+      "title": "Max väntetid (sekunder)",
+      "type": "integer",
+      "default": 45
     }
-  }
+  },
+  "required": ["startUrl"]
 }
